@@ -10,15 +10,32 @@ dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^4.0.1
+  flutter_native_splash: ^2.3.11
+  get: ^4.6.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^4.0.0
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  color_dark: "#272727"
+  image: assets\images\bookstack.jpg
+  image_dark: assets\images\bookstack.jpg
+  
+  android_12:
+    image: assets\images\bookstack.jpg
+    image_dark: assets\images\bookstack.jpg
+    icon_background_color: "#f7f6f1"
+    icon_background_color_dark: "#272727"
+
+
 
 flutter:
   uses-material-design: true
   
   assets:
     - assets\images\bookstack.jpg
+    - assets\images\red_splash.png
     
